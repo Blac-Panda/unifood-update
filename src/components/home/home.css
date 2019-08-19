@@ -1,0 +1,40 @@
+.background{
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.searchParent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    margin: 20px; 
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        text-align: center;
+    }
+}
+ 
